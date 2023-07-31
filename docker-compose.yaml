@@ -13,7 +13,7 @@ services:
     networks:
       - liuli-network
   liuli_schedule:
-    image: liuliio/schedule:v0.2.4
+    image: liuliio/schedule:v0.2.4_playwright
     restart: always
     container_name: liuli_schedule
     volumes:
